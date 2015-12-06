@@ -93,7 +93,7 @@ class Artikel extends \yii\db\ActiveRecord
                 FROM artikel a 
                 JOIN artikel_komentar ak ON a.`id`=ak.`artikel_id` 
                 JOIN artikel_kategori aka ON a.`kategori_id`=aka.`id`
-                JOIN USER u ON u.`id`=a.`created_by`
+                JOIN user u ON u.`id`=a.`created_by`
 
                 GROUP BY ak.`artikel_id`
                 ORDER BY jum_koment DESC

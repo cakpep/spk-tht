@@ -203,12 +203,12 @@ class User extends ActiveRecord implements IdentityInterface
                 (SELECT COUNT(artikel_id) FROM artikel_komentar) artikel_komentar,
                 (SELECT COUNT(id) FROM penyakit) penyakit,
                 (SELECT COUNT(id) FROM penyakit_gejala) penyakit_gejala,
-                (SELECT COUNT(id) FROM USER) users,
+                (SELECT COUNT(id) FROM user) users,
 
-                (SELECT COUNT(id) FROM USER WHERE STATUS=10) user_aktif,
-                (SELECT COUNT(id) FROM USER WHERE STATUS=0) usertidakaktif,
-                (SELECT COUNT(id) FROM USER WHERE id IN(SELECT user_id FROM user_profil )) user_profil,
-                (SELECT COUNT(id) FROM USER WHERE id NOT IN(SELECT user_id FROM user_profil )) user_profil_no";
+                (SELECT COUNT(id) FROM user WHERE STATUS=10) user_aktif,
+                (SELECT COUNT(id) FROM user WHERE STATUS=0) usertidakaktif,
+                (SELECT COUNT(id) FROM user WHERE id IN(SELECT user_id FROM user_profil )) user_profil,
+                (SELECT COUNT(id) FROM user WHERE id NOT IN(SELECT user_id FROM user_profil )) user_profil_no";
 
        $model = $connection->createCommand($query);
        $data = $model->queryAll();

@@ -22,7 +22,7 @@ $artikel_gbr=!empty($model->foto_artikel) ? $model->foto_artikel:'images.png';
             </div>            
             <div class="panel-content" style="margin:1%">
                 <div class="col-sm-4">                                                              
-                     <?php echo '<img src='.Url::to('@web').'/adm/uploads/artikel/'.$artikel_gbr.' />'; ?>                                
+                     <?php echo '<img src=adm/uploads/artikel/'.$artikel_gbr.' />'; ?>                                
                 </div>
                 <?php echo $model->isi; ?>
             </div>
@@ -47,7 +47,7 @@ $artikel_gbr=!empty($model->foto_artikel) ? $model->foto_artikel:'images.png';
 
                                 <li>
                                     <div class="commenterImage">
-                                      <?php echo '<img src='.Url::to('@web').'/uploads/foto_profil/'.$gbr.' />'; ?>
+                                      <?php echo '<img src="uploads/foto_profil/'.$gbr.'" />'; ?>
                                     </div>
                                     <div class="commentText">                                        
                                         <span class="date sub-text">

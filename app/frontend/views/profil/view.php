@@ -54,7 +54,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="row" style="padding-left:70px">
                         <?php 
                             $gbr=!empty($model->foto)?$model->foto:'images.png';
-                            echo  '<img src='.Url::to('@web').'/uploads/foto_profil/'.$gbr.' alt="" class="img-circle img-responsive" />';
+                            echo  '<img src=uploads/foto_profil/'.$gbr.' alt="" class="img-circle img-responsive" />';
                         ?>
                     </div>                    
                 </div>

@@ -20,17 +20,17 @@ $this->title = 'Sistem Pakar';
                 echo Carousel::widget([
                     'items' => [                    
                         [
-                            'content' => '<img src='.Url::to('@web').'/adm/uploads/carousel/aa.jpg width="1170px" height="300px"/>',
+                            'content' => '<img src="/adm/uploads/carousel/aa.jpg" width="1170px" height="300px"/>',
                             'caption' => $cap,
                             // 'options' => [...],
                         ],
                         [
-                            'content' => '<img src='.Url::to('@web').'/adm/uploads/carousel/dokter.png width="1170px" height="300px"/>',
+                            'content' => '<img src="/adm/uploads/carousel/dokter.png" width="1170px" height="300px"/>',
                             'caption' => $cap2,
                             // 'options' => [...],
                         ],
                         [
-                            'content' => '<img src='.Url::to('@web').'/adm/uploads/carousel/dokter-ayu.jpg width="1170px" height="300px"/>',
+                            'content' => '<img src="/adm/uploads/carousel/dokter-ayu.jpg" width="1170px" height="300px"/>',
                             'caption' => $cap3,
                             // 'options' => [...],
                         ],
@@ -43,7 +43,7 @@ $this->title = 'Sistem Pakar';
                 <div class="media">
                   <div class="media-left media-middle">
                     <a href="#">
-                      <img data-holder-rendered="true" src=<?= Url::to('@web').'/adm/uploads/carousel/aa.jpg' ?> style="width: 64px; height: 64px;" class="media-object" data-src="holder.js/64x64" alt="64x64">
+                      <img data-holder-rendered="true" src='/adm/uploads/carousel/aa.jpg' style="width: 64px; height: 64px;" class="media-object" data-src="holder.js/64x64" alt="64x64">
                     </a>
                   </div>
                   <div class="media-body">
@@ -59,7 +59,7 @@ $this->title = 'Sistem Pakar';
                 <div class="media">
                   <div class="media-left media-middle">
                     <a href="#">
-                      <img data-holder-rendered="true" src=<?= Url::to('@web').'/adm/uploads/carousel/dokter.png' ?>  style="width: 64px; height: 64px;" class="media-object" data-src="holder.js/64x64" alt="64x64">
+                      <img data-holder-rendered="true" src='/adm/uploads/carousel/dokter.png'  style="width: 64px; height: 64px;" class="media-object" data-src="holder.js/64x64" alt="64x64">
                     </a>
                   </div>
                   <div class="media-body">
@@ -75,7 +75,7 @@ $this->title = 'Sistem Pakar';
                 <div class="media">
                   <div class="media-left media-middle">
                     <a href="#">
-                      <img data-holder-rendered="true" src=<?= Url::to('@web').'/adm/uploads/carousel/dokter-ayu.jpg' ?>  style="width: 64px; height: 64px;" class="media-object" data-src="holder.js/64x64" alt="64x64">
+                      <img data-holder-rendered="true" src="/adm/uploads/carousel/dokter-ayu.jpg"  style="width: 64px; height: 64px;" class="media-object" data-src="holder.js/64x64" alt="64x64">
                     </a>
                   </div>
                   <div class="media-body">                    

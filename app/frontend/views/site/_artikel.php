@@ -21,7 +21,7 @@ use yii\helpers\Url;
                             
                             <div class="col-sm-4">   
                                 <a href="#" class="thumbnail">                                                           
-                                      <img src='.Url::to('@web').'/adm/uploads/artikel/'.$artikel_gbr.' width="150" height="150"/>                                
+                                      <img src="/adm/uploads/artikel/'.$artikel_gbr.'" width="150" height="150"/>                                
                                 </a>
                             </div>
                             <div class="col-sm-8">

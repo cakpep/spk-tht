@@ -1,7 +1,7 @@
 <?php
 use backend\widgets\Panel;
 use yii\helpers\Html;
-use yii\helpers\url;
+use yii\helpers\Url;
 
 ?>
 

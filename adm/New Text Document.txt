@@ -1,11 +1,11 @@
-admin
--mimin
--adminn
+level admin
+u : mimin
+p : admin
 
-pakar
-febri
--adminn
+level pakar
+u : febri
+p : admin
 
-publisher
-rio
--adminn
+level publisher
+u : rio
+p : admin
